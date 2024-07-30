@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gm File</title>
+</head>
+<body>
+    <h1>good morning all </h1>
+    <body>
+        <form method="post">
+            {% csrf_token %}
+        <table border="1"   align="center"  width="300px" heigh="200px" cellpadding="3" cellspacing="3">
+            <tr>
+                <td><label for="username">User Name</label></td>
+                <td><input type="text" id="username" name="uname" required></td>
+            </tr>
+            <tr>
+                <td><label for="contact">Contact No.</label></td>
+                <td><input type="text" id="contact" name="mob" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">User Email</label></td>
+                <td><input type="email" id="email" name="uemail" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" name="msg" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button></td>
+            </tr>
+        </table>
+        </form>
+           
+</body>
+</html>
